@@ -102,39 +102,92 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
 
+Create a New Project:
 
+Open Quartus and create a new project by selecting "File" > "New Project Wizard."
+Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
+Create a New Design File:
+
+Once the project is created, right-click on the project name in the Project Navigator and select "Add New File."
+Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language.
+Write the Combinational Logic Code:
+
+Open the newly created Verilog or VHDL file and write the code for your combinational logic.
+Compile the Project:
+
+To compile the project, click on "Processing" > "Start Compilation" in the menu.
+Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
+Analyze and Fix Errors:*
+
+If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window.
+Review and fix any issues in your code if necessary.
+View the RTL diagram.
+6.*Verification:
+
+Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
+Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All.
+Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: U KRITHIGA
+RegisterNumber: 23006499 
 */
+SR FF code
+![SR code](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/312e7f32-4b9f-4586-8f4d-86933ecc3990)
+
+D FF code
+![D FF code](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/48eb7943-ba63-4ff8-ad3d-bbbc22602d89)
 
 
+JK FF code
+![JK FF CODE](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/1e047c9b-8cd0-493e-a6e8-5931901faafb)
 
+T FF code
 
+![T FF code](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/a0c7430e-49d7-49ee-a4a1-1ccb23da95a4)
 
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
+SR FF
+
+![SR diag](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/8f3d342a-e8cc-4ad8-a0b8-157e5167af02)
+
+D FF
+
+![D FF RTL](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/6e5822e4-73ce-4323-bc66-8159746bd2fd)
 
 
+JK FF
 
+![JK RTL](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/5da51422-0795-42c2-b179-1deae92eaaad)
 
+T FF
 
-
+![T FF code](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/c356c95a-7c8f-4a06-83f4-e5ea36f811c0)
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
+SR FF
+
+![SR Timing dg](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/0cf17d00-9863-4fad-9e09-2e1f98950ddf)
+
+D FF
+
+![D FF timings](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/bc1e6f1a-acb2-431d-b905-8a31b55bc2ef)
+
+JK FF
+
+![JK Timing](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/d1c3b2b4-d116-4be8-a353-ad83eecf3ecd)
 
 
+T FF
 
-
-
-
+![T FF timing](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/aa911bcb-bec7-448e-a2a3-bd11383c8367)
 
 ### RESULTS 
+By this we have verified the truth tables of SR flipflop ,D flipflop,JK flipflop and T flipflop using verilog.
