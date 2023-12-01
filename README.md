@@ -133,13 +133,15 @@ Give the Input Combinations according to the Truth Table amd then simulate the O
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: U KRITHIGA
-RegisterNumber: 23006499 
-*/
+RegisterNumber: 23006499 */
+
 SR FF code
 ![SR code](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/312e7f32-4b9f-4586-8f4d-86933ecc3990)
 
+
 D FF code
 ![D FF code](https://github.com/krithigau/Experiment--05-Implementation-of-flipflops-using-verilog/assets/150319401/48eb7943-ba63-4ff8-ad3d-bbbc22602d89)
+
 
 
 JK FF code
